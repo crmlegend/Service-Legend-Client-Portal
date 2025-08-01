@@ -53,3 +53,4 @@ jobs:
           app_build_command: "npm cache clean --force && npm install --force && npm run build"
         env:
           NODE_VERSION: "20.x"
+        
