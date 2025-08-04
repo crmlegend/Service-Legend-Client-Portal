@@ -7,9 +7,6 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      // Explicitly resolve 'lucide-react' to its node_modules path.
-      // This helps Rollup find the module correctly during the build.
-      'lucide-react': path.resolve(__dirname, 'node_modules/lucide-react'),
     },
   },
   build: {
