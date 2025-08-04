@@ -30,7 +30,7 @@ jobs:
 
       - name: Install dependencies and build
         run: |
-          npm install
+          npm install --force
           npm run build
 
       - name: Build And Deploy
